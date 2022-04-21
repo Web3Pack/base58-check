@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@web3pack/base-x": "^1.0.1",
+    "buffer": "^6.0.3",
     "hash.js": "^1.1.7"
   }
 }
