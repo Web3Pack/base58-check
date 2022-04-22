@@ -1,7 +1,7 @@
 {
   "name": "@web3pack/base58-check",
-  "version": "1.0.2",
-  "description": "A straightforward implementation of base58-check encoding",
+  "version": "1.0.3",
+  "description": "A modern base58-check encoding library implemented in TypeScript with minimal dependencies for use in browser and Node.js.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
