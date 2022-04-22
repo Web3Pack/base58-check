@@ -1,9 +1,9 @@
 [![CodeQL](https://github.com/Web3Pack/base58-check/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Web3Pack/base58-check/actions/workflows/codeql-analysis.yml)
 [![Node.js Package](https://github.com/Web3Pack/base58-check/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Web3Pack/base58-check/actions/workflows/npm-publish.yml)
 
-# base58-check encoding and decoding
+# Base58-check encoding library
 
-A simple base58-check encoding library for Node.js and the browser implemented in TypeScript with minimal dependencies.
+A modern base58-check encoding library implemented in TypeScript with minimal dependencies for use in browser and Node.js.
 
 ## Example
 
