@@ -1,27 +1,53 @@
 {
-  "name": "base58check",
+  "name": "@web3pack/base58-check",
   "version": "1.0.0",
-  "description": "",
+  "description": "A straightforward implementation of base58-check encoding",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "base58",
+    "base58check",
+    "base58-check",
+    "checksum",
+    "encode",
+    "encoding",
+    "decode",
+    "decoding",
+    "crypto",
+    "crytography"
+  ],
+  "author": "Evren Ceyhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web3Pack/base58-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Web3Pack/base58-check/issues"
+  },
+  "homepage": "https://github.com/Web3Pack/base58-check#readme",
   "scripts": {
     "build": "npm run clean & tsc",
     "clean": "rm -rf ./dist",
     "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^27.4.1",
-    "jest": "^27.5.1",
-    "ts-jest": "^27.1.4",
-    "typescript": "^4.6.3"
+    "test:watch": "jest --watch",
+    "prepare": "npm run build & npm run test"
   },
   "dependencies": {
     "@web3pack/base-x": "^1.0.1",
     "buffer": "^6.0.3",
     "hash.js": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
   }
 }
